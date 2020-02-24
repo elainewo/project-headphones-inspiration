@@ -274,11 +274,19 @@ header{
     line-height: 35px;
 }
 
+.shop{
+    height: 100vh;
+}
+
 .shop-text{
     width:45%;
     text-align: center;
     padding-top: 7%;
     color: rgb(115, 115, 115);
+}
+
+.shop-text img{
+    height: 55vh;
 }
 
 .shop-text h2{
@@ -307,3 +315,60 @@ header{
     color: #fff;
     transition: 1.1s;
 }
+
+
+.newsletter{
+    background: url(../img/section-composition4.jpg) center/cover no-repeat;
+    height: 100vh; 
+    padding: 0 10%;
+    padding-top: 10%;
+  }
+
+form {
+    border: 1px solid #ebccc2;
+    font-family: Arial;
+    width: 65%;
+    margin: 0 auto;
+    color:  rgb(115, 115, 115);
+  }
+  
+  .container {
+    padding: 5%;
+    background-color:  #2e2e2e;
+  }
+
+  .container h2{
+   color: #ebccc2;
+  }
+  
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 2.5%;
+    margin: 1% 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: .9rem;
+  }
+
+  input[type=text]{
+      background-color: #ffffff8c;
+  }
+  
+  input[type=checkbox] {
+    margin-top: 2%;
+  }
+  
+  input[type=submit] {
+    background-color: #ebccc2;;
+    color: #000;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    color: #fff;
+    transition: 1.1s;
+  }
+
+
+ 

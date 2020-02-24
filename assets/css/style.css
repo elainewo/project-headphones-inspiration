@@ -14,6 +14,7 @@ body{
     margin: 0;
 }
 
+/* Header */
 header{
     display: flex;
     justify-content: space-between;
@@ -53,39 +54,14 @@ header{
     padding-left: 35px;
 }
 
+
+/* Home Section*/
 #home{
     padding: 8% 5%;
     position: relative;
 }
 
-.about-img{
-    background: url(../img/section-about-1.jpg) center/cover no-repeat;
-    height: 100vh;
-}
-
-.beyond-music span{
-    display: block;
-}
-
-.beyond-music p{
-    font-size: 2rem;
-    font-weight: 100;
-    color: #ebccc2;
-    letter-spacing: 3px;
-    line-height: 44px;
-    padding-top: 8%;
-    padding-left: 26%;
-    padding-bottom: 10%;
-}
-
-.home-menu{
-    position: fixed;
-    left: 1.5%;
-    top: 60%;
-    transform: translate(0, -50%);
-
-}
-
+/* Aside Navbar */
 .home-menu nav ul li{
     list-style: none;
     margin-bottom: 65%;
@@ -115,6 +91,35 @@ header{
 
 .home-menu nav ul li a:focus{
     color: #fff;
+}
+
+.home-menu{
+    position: fixed;
+    left: 1.5%;
+    top: 60%;
+    transform: translate(0, -50%);
+
+}
+
+/* Home Section*/
+.about-img{
+    background: url(../img/section-about-1.jpg) center/cover no-repeat;
+    height: 100vh;
+}
+
+.beyond-music span{
+    display: block;
+}
+
+.beyond-music p{
+    font-size: 2rem;
+    font-weight: 100;
+    color: #ebccc2;
+    letter-spacing: 3px;
+    line-height: 44px;
+    padding-top: 8%;
+    padding-left: 26%;
+    padding-bottom: 10%;
 }
 
 .design-alchemy {
@@ -149,6 +154,7 @@ header{
     padding-top: 2%;
 }
 
+/* Lounger & Experience Section*/
 .subpage article{
     display: flex;
 }
@@ -192,6 +198,7 @@ header{
     padding: 3.5% 0;
 }
 
+/* Inspiration Section */
 #inspiration{
     padding: 10% 20% 0 20%;
     
@@ -274,6 +281,7 @@ header{
     line-height: 35px;
 }
 
+/* Shop Section */
 .shop{
     height: 100vh;
 }
@@ -316,7 +324,7 @@ header{
     transition: 1.1s;
 }
 
-
+/* Newsletter Section */
 .newsletter{
     background: url(../img/section-composition4.jpg) center/cover no-repeat;
     height: 100vh; 
